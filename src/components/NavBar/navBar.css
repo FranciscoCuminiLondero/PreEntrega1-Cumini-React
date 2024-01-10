@@ -1,0 +1,30 @@
+.encabezado {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 4rem;
+}
+
+.encabezado__logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.encabezado__logo img {
+    width: 5rem;
+    margin-right: 1rem;
+}
+
+.titulo {
+    font-family: 'Salsa', cursive;
+    color: #815947;
+}
+
+.menu__seleccion {
+    padding: 8px 10px;
+    border: none;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+}
