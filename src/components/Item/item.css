@@ -1,0 +1,45 @@
+
+.cardItem {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    margin: 2rem;
+    padding: 1rem;
+    border: 2px solid #815947;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+
+.cardItem:hover {
+    transform: scale(1.05);
+}
+
+picture {
+    max-width: 250px;
+
+}
+
+.itemImg {
+    width: 100%;
+}
+
+.info {
+    margin-bottom: 1rem;
+}
+
+.seeMore {
+    background-color: #815947;
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+}
+
+.seeMore:hover {
+    background-color: #fff;
+    color: #815947;
+}

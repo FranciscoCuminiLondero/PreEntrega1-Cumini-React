@@ -19,12 +19,25 @@
 .titulo {
     font-family: 'Salsa', cursive;
     color: #815947;
+    
+}
+.encabezado a {
+    text-decoration: none;
+}
+.menu a {
+    text-decoration: none;
+    margin-inline: 1rem;
+    border: 2px #815947 solid;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: .5rem 1rem;
 }
 
-.menu__seleccion {
-    padding: 8px 10px;
-    border: none;
-    font-size: 1rem;
-    font-weight: 500;
-    cursor: pointer;
+.menu a:hover {
+    color: #fff;
+    background-color: #815947;
+}
+
+.menu .ActiveOption {
+    font-weight: 800;
 }
