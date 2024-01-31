@@ -1,4 +1,4 @@
-# Pre-Entrega 1 - Curso CoderHouse React
+# Pre-Entrega 2 - Curso CoderHouse React
 
 ## Consigna
 Configura en App.js el routing usando un BrowserRouter de tu aplicación con react-router-dom
